@@ -9,7 +9,7 @@ const config: Config = {
 
   url: 'https://xceedsoftware.github.io',
   baseUrl: '/Xceed-Words-Tutorials/',
-  trailingSlash: true,
+  trailingSlash: false,
 
   organizationName: 'xceedsoftware',
   projectName: 'Xceed-Words-Tutorials',
@@ -36,7 +36,7 @@ const config: Config = {
           editUrl: 'https://github.com/xceedsoftware/Xceed-Words-Tutorials/edit/main/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css'), // Ensure this path is correct
         },
       } satisfies Preset.Options,
     ],
@@ -113,6 +113,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: 'dark', // Set the default theme to dark
+      disableSwitch: false, // Enable the theme switch
+      respectPrefersColorScheme: false, // Ignore the user's system preference
     },
   } satisfies Preset.ThemeConfig,
 };

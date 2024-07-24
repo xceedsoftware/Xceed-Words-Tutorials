@@ -27,12 +27,10 @@ jobs:
         working-directory: ./Xceed-Words-Tutorials
 
       - name: Create .nojekyll file
-        run: |
-          touch ./Xceed-Words-Tutorials/build/.nojekyll
-        shell: bash
+        run: echo "" > ./Xceed-Words-Tutorials/docs/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN_SECRET }}
-          publish_dir: ./Xceed-Words-Tutorials/build
+          publish_dir: ./Xceed-Words-Tutorials/docs

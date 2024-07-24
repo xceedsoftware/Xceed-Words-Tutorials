@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxceed_words_tutorials=self.webpackChunkxceed_words_tutorials||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

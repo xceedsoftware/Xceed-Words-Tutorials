@@ -26,6 +26,9 @@ jobs:
         run: npm run build
         working-directory: ./Xceed-Words-Tutorials
 
+      - name: Create .nojekyll file
+        run: echo "" > ./Xceed-Words-Tutorials/build/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

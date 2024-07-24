@@ -20,12 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./Xceed-Words-Tutorials
 
       - name: Build site
         run: npm run build
+        working-directory: ./Xceed-Words-Tutorials
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./Xceed-Words-Tutorials/build

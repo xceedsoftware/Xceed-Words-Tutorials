@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxceed_words_tutorials=self.webpackChunkxceed_words_tutorials||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/Xceed-Words-Tutorials/blog","blogTitle":"Blog"}')}}]);

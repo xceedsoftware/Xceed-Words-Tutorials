@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxceed_words_tutorials=self.webpackChunkxceed_words_tutorials||[]).push([[583],{6866:(e,r,s)=>{s.r(r),s.d(r,{default:()=>d});s(6540);var t=s(6347),u=s(4848);function d(){return(0,u.jsx)(t.rd,{to:"/Xceed-Words-Tutorials/intro"})}}}]);

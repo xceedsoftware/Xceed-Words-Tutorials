@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxceed_words_tutorials=self.webpackChunkxceed_words_tutorials||[]).push([[525],{5585:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Xceed-Words-Tutorials/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
